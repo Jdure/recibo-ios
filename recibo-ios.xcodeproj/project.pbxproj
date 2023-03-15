@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */; };
+		F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B829C22A4C001081EC /* ContentView.swift */; };
+		F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCE8BA29C22A4E001081EC /* Assets.xcassets */; };
+		F1BCE8BE29C22A4E001081EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCE8BD29C22A4E001081EC /* Preview Assets.xcassets */; };
+		F1BCE8C829C22A4E001081EC /* recibo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8C729C22A4E001081EC /* recibo_iosTests.swift */; };
+		F1BCE8D229C22A4E001081EC /* recibo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */; };
+		F1BCE8D429C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BCE8C429C22A4E001081EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BCE8AB29C22A4C001081EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BCE8B229C22A4C001081EC;
+			remoteInfo = "recibo-ios";
+		};
+		F1BCE8CE29C22A4E001081EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BCE8AB29C22A4C001081EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BCE8B229C22A4C001081EC;
+			remoteInfo = "recibo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1BCE8B329C22A4C001081EC /* recibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosApp.swift; sourceTree = "<group>"; };
+		F1BCE8B829C22A4C001081EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1BCE8BA29C22A4E001081EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BCE8BD29C22A4E001081EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1BCE8C329C22A4E001081EC /* recibo-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recibo-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BCE8C729C22A4E001081EC /* recibo_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosTests.swift; sourceTree = "<group>"; };
+		F1BCE8CD29C22A4E001081EC /* recibo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recibo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITests.swift; sourceTree = "<group>"; };
+		F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BCE8B029C22A4C001081EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8C029C22A4E001081EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8CA29C22A4E001081EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BCE8AA29C22A4C001081EC = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8B529C22A4C001081EC /* recibo-ios */,
+				F1BCE8C629C22A4E001081EC /* recibo-iosTests */,
+				F1BCE8D029C22A4E001081EC /* recibo-iosUITests */,
+				F1BCE8B429C22A4C001081EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BCE8B429C22A4C001081EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8B329C22A4C001081EC /* recibo-ios.app */,
+				F1BCE8C329C22A4E001081EC /* recibo-iosTests.xctest */,
+				F1BCE8CD29C22A4E001081EC /* recibo-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BCE8B529C22A4C001081EC /* recibo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */,
+				F1BCE8B829C22A4C001081EC /* ContentView.swift */,
+				F1BCE8BA29C22A4E001081EC /* Assets.xcassets */,
+				F1BCE8BC29C22A4E001081EC /* Preview Content */,
+			);
+			path = "recibo-ios";
+			sourceTree = "<group>";
+		};
+		F1BCE8BC29C22A4E001081EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8BD29C22A4E001081EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1BCE8C629C22A4E001081EC /* recibo-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8C729C22A4E001081EC /* recibo_iosTests.swift */,
+			);
+			path = "recibo-iosTests";
+			sourceTree = "<group>";
+		};
+		F1BCE8D029C22A4E001081EC /* recibo-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */,
+				F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */,
+			);
+			path = "recibo-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BCE8B229C22A4C001081EC /* recibo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BCE8D729C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-ios" */;
+			buildPhases = (
+				F1BCE8AF29C22A4C001081EC /* Sources */,
+				F1BCE8B029C22A4C001081EC /* Frameworks */,
+				F1BCE8B129C22A4C001081EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recibo-ios";
+			productName = "recibo-ios";
+			productReference = F1BCE8B329C22A4C001081EC /* recibo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BCE8C229C22A4E001081EC /* recibo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BCE8DA29C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-iosTests" */;
+			buildPhases = (
+				F1BCE8BF29C22A4E001081EC /* Sources */,
+				F1BCE8C029C22A4E001081EC /* Frameworks */,
+				F1BCE8C129C22A4E001081EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BCE8C529C22A4E001081EC /* PBXTargetDependency */,
+			);
+			name = "recibo-iosTests";
+			productName = "recibo-iosTests";
+			productReference = F1BCE8C329C22A4E001081EC /* recibo-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1BCE8CC29C22A4E001081EC /* recibo-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BCE8DD29C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-iosUITests" */;
+			buildPhases = (
+				F1BCE8C929C22A4E001081EC /* Sources */,
+				F1BCE8CA29C22A4E001081EC /* Frameworks */,
+				F1BCE8CB29C22A4E001081EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BCE8CF29C22A4E001081EC /* PBXTargetDependency */,
+			);
+			name = "recibo-iosUITests";
+			productName = "recibo-iosUITests";
+			productReference = F1BCE8CD29C22A4E001081EC /* recibo-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BCE8AB29C22A4C001081EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F1BCE8B229C22A4C001081EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F1BCE8C229C22A4E001081EC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1BCE8B229C22A4C001081EC;
+					};
+					F1BCE8CC29C22A4E001081EC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1BCE8B229C22A4C001081EC;
+					};
+				};
+			};
+			buildConfigurationList = F1BCE8AE29C22A4C001081EC /* Build configuration list for PBXProject "recibo-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BCE8AA29C22A4C001081EC;
+			productRefGroup = F1BCE8B429C22A4C001081EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BCE8B229C22A4C001081EC /* recibo-ios */,
+				F1BCE8C229C22A4E001081EC /* recibo-iosTests */,
+				F1BCE8CC29C22A4E001081EC /* recibo-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BCE8B129C22A4C001081EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCE8BE29C22A4E001081EC /* Preview Assets.xcassets in Resources */,
+				F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8C129C22A4E001081EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8CB29C22A4E001081EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BCE8AF29C22A4C001081EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */,
+				F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8BF29C22A4E001081EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCE8C829C22A4E001081EC /* recibo_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BCE8C929C22A4E001081EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCE8D429C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift in Sources */,
+				F1BCE8D229C22A4E001081EC /* recibo_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BCE8C529C22A4E001081EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BCE8B229C22A4C001081EC /* recibo-ios */;
+			targetProxy = F1BCE8C429C22A4E001081EC /* PBXContainerItemProxy */;
+		};
+		F1BCE8CF29C22A4E001081EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BCE8B229C22A4C001081EC /* recibo-ios */;
+			targetProxy = F1BCE8CE29C22A4E001081EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1BCE8D529C22A4E001081EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1BCE8D629C22A4E001081EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BCE8D829C22A4E001081EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"recibo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BCE8D929C22A4E001081EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"recibo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1BCE8DB29C22A4E001081EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recibo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recibo-ios";
+			};
+			name = Debug;
+		};
+		F1BCE8DC29C22A4E001081EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recibo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recibo-ios";
+			};
+			name = Release;
+		};
+		F1BCE8DE29C22A4E001081EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "recibo-ios";
+			};
+			name = Debug;
+		};
+		F1BCE8DF29C22A4E001081EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7MS8DRN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codebyJD.recibo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "recibo-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BCE8AE29C22A4C001081EC /* Build configuration list for PBXProject "recibo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCE8D529C22A4E001081EC /* Debug */,
+				F1BCE8D629C22A4E001081EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BCE8D729C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCE8D829C22A4E001081EC /* Debug */,
+				F1BCE8D929C22A4E001081EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BCE8DA29C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCE8DB29C22A4E001081EC /* Debug */,
+				F1BCE8DC29C22A4E001081EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BCE8DD29C22A4E001081EC /* Build configuration list for PBXNativeTarget "recibo-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCE8DE29C22A4E001081EC /* Debug */,
+				F1BCE8DF29C22A4E001081EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BCE8AB29C22A4C001081EC /* Project object */;
+}

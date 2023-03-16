@@ -18,7 +18,7 @@ struct HomeView: View {
             }
             .task {
                 await loadData()
-            }
+            }.navigationTitle("Clients")
         }
     }
     func loadData() async {
@@ -32,7 +32,7 @@ struct HomeView: View {
                 results = decodedResponse.users
             }
         } catch {
-            print("Invaluid data")
+            print("Invalid data")
         }
     }
 }

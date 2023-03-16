@@ -17,9 +17,11 @@ struct UserRow: View {
                 } placeholder: {
                     ProgressView()
                 }
-                .frame(width: 50, height: 50)
-                Text(user.firstName)
-                Text( user.lastName)
+                .frame(width: 50, height: 50).clipShape(Circle()).overlay(Circle().stroke(.gray, lineWidth: 2))
+                VStack (alignment: .leading){
+                    Text(user.firstName + " " + user.lastName).font(.headline)
+                    Text(user.company.name).font(.caption).foregroundColor(.gray)
+                }
             }
         }
     }

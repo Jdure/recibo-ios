@@ -17,9 +17,13 @@ struct User: Codable, Hashable {
     let firstName, lastName: String
     let email, phone: String
     let image: String
+    let company: Company
     
 #if DEBUG
-static let example = User(id: 5000, firstName: "Bob", lastName: "Smith", email: "bobsmith@example.com", phone: "555-444-321-1214", image: "https://robohash.org/hicveldicta.png")
+    static let example = User(id: 5000, firstName: "Bob", lastName: "Smith", email: "bobsmith@example.com", phone: "555-444-321-1214", image: "https://robohash.org/hicveldicta.png", company: Company.init(name: "Acme") )
 #endif
 }
 
+struct Company: Codable, Hashable {
+    let name: String
+}

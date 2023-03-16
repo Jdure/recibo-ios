@@ -14,6 +14,9 @@
 		F1BCE8C829C22A4E001081EC /* recibo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8C729C22A4E001081EC /* recibo_iosTests.swift */; };
 		F1BCE8D229C22A4E001081EC /* recibo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */; };
 		F1BCE8D429C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */; };
+		F1BCE8E229C28F5F001081EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E129C28F5F001081EC /* HomeView.swift */; };
+		F1BCE8E429C28F9A001081EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */; };
+		F1BCE8EA29C2ABEB001081EC /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E929C2ABEB001081EC /* UserRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F1BCE8CD29C22A4E001081EC /* recibo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recibo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITests.swift; sourceTree = "<group>"; };
 		F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1BCE8E129C28F5F001081EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F1BCE8E929C2ABEB001081EC /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		F1BCE8B529C22A4C001081EC /* recibo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F1BCE8E029C28F34001081EC /* Home */,
 				F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */,
 				F1BCE8B829C22A4C001081EC /* ContentView.swift */,
 				F1BCE8BA29C22A4E001081EC /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */,
 			);
 			path = "recibo-iosUITests";
+			sourceTree = "<group>";
+		};
+		F1BCE8E029C28F34001081EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCE8E129C28F5F001081EC /* HomeView.swift */,
+				F1BCE8E929C2ABEB001081EC /* UserRow.swift */,
+				F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BCE8E229C28F5F001081EC /* HomeView.swift in Sources */,
 				F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */,
 				F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */,
+				F1BCE8EA29C2ABEB001081EC /* UserRow.swift in Sources */,
+				F1BCE8E429C28F9A001081EC /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

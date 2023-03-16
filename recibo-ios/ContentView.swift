@@ -9,10 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Recibo App!")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Clients", systemImage: "person.3")
+                }
+            HomeView()
+                .tabItem {
+                    Label("New Invoice", systemImage: "doc.fill.badge.plus")
+                }
+            HomeView()
+                .tabItem {
+                    Label("All Invoices", systemImage: "doc.on.doc")
+                }
         }
-        .padding()
     }
 }
 

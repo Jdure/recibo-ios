@@ -14,9 +14,11 @@
 		F1BCE8C829C22A4E001081EC /* recibo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8C729C22A4E001081EC /* recibo_iosTests.swift */; };
 		F1BCE8D229C22A4E001081EC /* recibo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */; };
 		F1BCE8D429C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */; };
-		F1BCE8E229C28F5F001081EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E129C28F5F001081EC /* HomeView.swift */; };
-		F1BCE8E429C28F9A001081EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */; };
-		F1BCE8EA29C2ABEB001081EC /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E929C2ABEB001081EC /* UserRow.swift */; };
+		F1BCE8E229C28F5F001081EC /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E129C28F5F001081EC /* ClientsView.swift */; };
+		F1BCE8E429C28F9A001081EC /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */; };
+		F1BCE8EA29C2ABEB001081EC /* ClientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E929C2ABEB001081EC /* ClientRow.swift */; };
+		F1DCDF6829C499B0007A8E97 /* InvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DCDF6729C499B0007A8E97 /* InvoicesView.swift */; };
+		F1EFF32029C4950D0035576E /* NewInvoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF31F29C4950D0035576E /* NewInvoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +49,11 @@
 		F1BCE8CD29C22A4E001081EC /* recibo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recibo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8D129C22A4E001081EC /* recibo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITests.swift; sourceTree = "<group>"; };
 		F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F1BCE8E129C28F5F001081EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		F1BCE8E929C2ABEB001081EC /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		F1BCE8E129C28F5F001081EC /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
+		F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
+		F1BCE8E929C2ABEB001081EC /* ClientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRow.swift; sourceTree = "<group>"; };
+		F1DCDF6729C499B0007A8E97 /* InvoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesView.swift; sourceTree = "<group>"; };
+		F1EFF31F29C4950D0035576E /* NewInvoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInvoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 		F1BCE8B529C22A4C001081EC /* recibo-ios */ = {
 			isa = PBXGroup;
 			children = (
-				F1BCE8E029C28F34001081EC /* Home */,
+				F1DCDF6529C49972007A8E97 /* Invoices */,
+				F1EFF31E29C494F40035576E /* NewInvoice */,
+				F1BCE8E029C28F34001081EC /* Clients */,
 				F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */,
 				F1BCE8B829C22A4C001081EC /* ContentView.swift */,
 				F1BCE8BA29C22A4E001081EC /* Assets.xcassets */,
@@ -134,14 +140,30 @@
 			path = "recibo-iosUITests";
 			sourceTree = "<group>";
 		};
-		F1BCE8E029C28F34001081EC /* Home */ = {
+		F1BCE8E029C28F34001081EC /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				F1BCE8E129C28F5F001081EC /* HomeView.swift */,
-				F1BCE8E929C2ABEB001081EC /* UserRow.swift */,
-				F1BCE8E329C28F9A001081EC /* HomeViewModel.swift */,
+				F1BCE8E129C28F5F001081EC /* ClientsView.swift */,
+				F1BCE8E929C2ABEB001081EC /* ClientRow.swift */,
+				F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */,
 			);
-			path = Home;
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		F1DCDF6529C49972007A8E97 /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				F1DCDF6729C499B0007A8E97 /* InvoicesView.swift */,
+			);
+			path = Invoices;
+			sourceTree = "<group>";
+		};
+		F1EFF31E29C494F40035576E /* NewInvoice */ = {
+			isa = PBXGroup;
+			children = (
+				F1EFF31F29C4950D0035576E /* NewInvoice.swift */,
+			);
+			path = NewInvoice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BCE8E229C28F5F001081EC /* HomeView.swift in Sources */,
+				F1BCE8E229C28F5F001081EC /* ClientsView.swift in Sources */,
 				F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */,
+				F1DCDF6829C499B0007A8E97 /* InvoicesView.swift in Sources */,
 				F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */,
-				F1BCE8EA29C2ABEB001081EC /* UserRow.swift in Sources */,
-				F1BCE8E429C28F9A001081EC /* HomeViewModel.swift in Sources */,
+				F1BCE8EA29C2ABEB001081EC /* ClientRow.swift in Sources */,
+				F1EFF32029C4950D0035576E /* NewInvoice.swift in Sources */,
+				F1BCE8E429C28F9A001081EC /* ClientsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

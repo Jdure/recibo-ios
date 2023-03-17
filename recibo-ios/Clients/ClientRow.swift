@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UserRow: View {
+struct ClientRow: View {
     let user: User
     var body: some View {
         VStack {
@@ -27,8 +27,8 @@ struct UserRow: View {
     }
 }
 
-struct UserRow_Previews: PreviewProvider {
+struct ClientRow_Previews: PreviewProvider {
     static var previews: some View {
-        UserRow(user: User.example )
+        ClientRow(user: User.example )
     }
 }

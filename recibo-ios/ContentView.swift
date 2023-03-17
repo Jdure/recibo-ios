@@ -10,15 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView()
+            ClientsView()
                 .tabItem {
                     Label("Clients", systemImage: "person.3")
                 }
-            HomeView()
+            NewInvoice()
                 .tabItem {
                     Label("New Invoice", systemImage: "doc.fill.badge.plus")
                 }
-            HomeView()
+            InvoicesView()
                 .tabItem {
                     Label("All Invoices", systemImage: "doc.on.doc")
                 }

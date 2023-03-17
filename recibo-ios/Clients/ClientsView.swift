@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct ClientsView: View {
     @State private var results = [User]()
     var body: some View {
         NavigationStack{
             List(results, id: \.id){ user in
                 NavigationLink(value: user){
-                    UserRow(user: user)
+                    ClientRow(user: user)
                 }
             }
             .task {
@@ -39,8 +39,8 @@ struct HomeView: View {
 
 
 
-struct HomeView_Previews: PreviewProvider {
+struct ClientsView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        ClientsView()
     }
 }

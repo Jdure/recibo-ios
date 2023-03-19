@@ -22,32 +22,38 @@ struct NewInvoice: View {
                     TextField(.init(""), text: $email, prompt: Text("JohnSmith@example.com"))
                     TextField(.init(""), text: $email, prompt: Text("(555)-555-5555"))
                 }
+                Section(header: Text("Add Client Image")) {
+                    VStack {
+                                    PhotosPicker("Choose Image", selection: $avatarItem, matching: .images)
+                    
+                                    if let avatarImage {
+                                        avatarImage
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 300, height: 300)
+                                    }
+                    
+                                }
+                                .onChange(of: avatarItem) { _ in
+                                    Task {
+                                        if let data = try? await avatarItem?.loadTransferable(type: Data.self) {
+                                            if let uiImage = UIImage(data: data) {
+                                                avatarImage = Image(uiImage: uiImage)
+                                                return
+                                            }
+                                        }
+                                    }
+                                    print("FAILED")
+                                }
+                }
+                
+                Section {
+                    Button{ print("Button Pressed") } label: { Text("Save Invoice") }
+                }
                 
             }.navigationTitle("Create Invoice")
                 .navigationBarTitleDisplayMode(.inline)
             Spacer()
-//            VStack {
-//                PhotosPicker("Select Client Image", selection: $avatarItem, matching: .images)
-//
-//                if let avatarImage {
-//                    avatarImage
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(width: 300, height: 300)
-//                }
-//
-//            }
-//            .onChange(of: avatarItem) { _ in
-//                Task {
-//                    if let data = try? await avatarItem?.loadTransferable(type: Data.self) {
-//                        if let uiImage = UIImage(data: data) {
-//                            avatarImage = Image(uiImage: uiImage)
-//                            return
-//                        }
-//                    }
-//                }
-//                print("FAILED")
-//            }
         }
         
     }

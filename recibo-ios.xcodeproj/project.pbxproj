@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F163190F29D26E3500AC9A34 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = F163190E29D26E3500AC9A34 /* Supabase */; };
+		F1B707F129DC722100247F65 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1B707F029DC722100247F65 /* keys.plist */; };
+		F1B707F329DC739000247F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F1B707F229DC739000247F65 /* .gitignore */; };
 		F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */; };
 		F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B829C22A4C001081EC /* ContentView.swift */; };
 		F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCE8BA29C22A4E001081EC /* Assets.xcassets */; };
@@ -39,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1B707F029DC722100247F65 /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		F1B707F229DC739000247F65 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F1BCE8B329C22A4C001081EC /* recibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosApp.swift; sourceTree = "<group>"; };
 		F1BCE8B829C22A4C001081EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F163190F29D26E3500AC9A34 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +90,8 @@
 		F1BCE8AA29C22A4C001081EC = {
 			isa = PBXGroup;
 			children = (
+				F1B707F229DC739000247F65 /* .gitignore */,
+				F1B707F029DC722100247F65 /* keys.plist */,
 				F1BCE8B529C22A4C001081EC /* recibo-ios */,
 				F1BCE8C629C22A4E001081EC /* recibo-iosTests */,
 				F1BCE8D029C22A4E001081EC /* recibo-iosUITests */,
@@ -182,6 +190,9 @@
 			dependencies = (
 			);
 			name = "recibo-ios";
+			packageProductDependencies = (
+				F163190E29D26E3500AC9A34 /* Supabase */,
+			);
 			productName = "recibo-ios";
 			productReference = F1BCE8B329C22A4C001081EC /* recibo-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -254,6 +265,9 @@
 				Base,
 			);
 			mainGroup = F1BCE8AA29C22A4C001081EC;
+			packageReferences = (
+				F163190D29D26E3500AC9A34 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = F1BCE8B429C22A4C001081EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B707F329DC739000247F65 /* .gitignore in Resources */,
+				F1B707F129DC722100247F65 /* keys.plist in Resources */,
 				F1BCE8BE29C22A4E001081EC /* Preview Assets.xcassets in Resources */,
 				F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */,
 			);
@@ -627,6 +643,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F163190D29D26E3500AC9A34 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F163190E29D26E3500AC9A34 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F163190D29D26E3500AC9A34 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1BCE8AB29C22A4C001081EC /* Project object */;
 }

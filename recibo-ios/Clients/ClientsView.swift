@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ClientsView: View {
     @State private var results = [User]()
     var body: some View {

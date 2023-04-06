@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1B7080E29DF5D1F00247F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F1B7080D29DF5D1F00247F65 /* .gitignore */; };
 		F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */; };
 		F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8B829C22A4C001081EC /* ContentView.swift */; };
 		F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCE8BA29C22A4E001081EC /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1B7080D29DF5D1F00247F65 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F1BCE8B329C22A4C001081EC /* recibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosApp.swift; sourceTree = "<group>"; };
 		F1BCE8B829C22A4C001081EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		F1BCE8AA29C22A4C001081EC = {
 			isa = PBXGroup;
 			children = (
+				F1B7080D29DF5D1F00247F65 /* .gitignore */,
 				F1BCE8B529C22A4C001081EC /* recibo-ios */,
 				F1BCE8C629C22A4E001081EC /* recibo-iosTests */,
 				F1BCE8D029C22A4E001081EC /* recibo-iosUITests */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BCE8BE29C22A4E001081EC /* Preview Assets.xcassets in Resources */,
+				F1B7080E29DF5D1F00247F65 /* .gitignore in Resources */,
 				F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

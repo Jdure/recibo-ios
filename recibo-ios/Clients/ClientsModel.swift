@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+//struct Users {
+//    let users: [User]
+//}
+//
+//struct User: Hashable, Codable {
+//    
+//}

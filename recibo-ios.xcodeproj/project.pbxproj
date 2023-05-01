@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F19623F22A002BB00023586F /* ClientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19623F12A002BB00023586F /* ClientsModel.swift */; };
+		F19623F42A0032A50023586F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19623F32A0032A50023586F /* GoogleService-Info.plist */; };
 		F1B7080E29DF5D1F00247F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F1B7080D29DF5D1F00247F65 /* .gitignore */; };
-		F1B7081029DF5E0000247F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1B7080F29DF5E0000247F65 /* GoogleService-Info.plist */; };
 		F1B7081329DF5F1700247F65 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F1B7081229DF5F1700247F65 /* FirebaseAuth */; };
 		F1B7081529DF5F1700247F65 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F1B7081429DF5F1700247F65 /* FirebaseDatabase */; };
 		F1B7081729DF5F1700247F65 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F1B7081629DF5F1700247F65 /* FirebaseFirestore */; };
@@ -25,7 +26,7 @@
 		F1BCE8D429C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */; };
 		F1BCE8E229C28F5F001081EC /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E129C28F5F001081EC /* ClientsView.swift */; };
 		F1BCE8E429C28F9A001081EC /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */; };
-		F1BCE8EA29C2ABEB001081EC /* ClientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E929C2ABEB001081EC /* ClientRow.swift */; };
+		F1BCE8EA29C2ABEB001081EC /* ClientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCE8E929C2ABEB001081EC /* ClientRowView.swift */; };
 		F1DCDF6829C499B0007A8E97 /* InvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DCDF6729C499B0007A8E97 /* InvoicesView.swift */; };
 		F1EFF32029C4950D0035576E /* NewInvoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF31F29C4950D0035576E /* NewInvoice.swift */; };
 /* End PBXBuildFile section */
@@ -48,8 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F19623F12A002BB00023586F /* ClientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsModel.swift; sourceTree = "<group>"; };
+		F19623F32A0032A50023586F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1B7080D29DF5D1F00247F65 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		F1B7080F29DF5E0000247F65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1BCE8B329C22A4C001081EC /* recibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosApp.swift; sourceTree = "<group>"; };
 		F1BCE8B829C22A4C001081EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +64,7 @@
 		F1BCE8D329C22A4E001081EC /* recibo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F1BCE8E129C28F5F001081EC /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
 		F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
-		F1BCE8E929C2ABEB001081EC /* ClientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRow.swift; sourceTree = "<group>"; };
+		F1BCE8E929C2ABEB001081EC /* ClientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRowView.swift; sourceTree = "<group>"; };
 		F1DCDF6729C499B0007A8E97 /* InvoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesView.swift; sourceTree = "<group>"; };
 		F1EFF31F29C4950D0035576E /* NewInvoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInvoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +125,7 @@
 		F1BCE8B529C22A4C001081EC /* recibo-ios */ = {
 			isa = PBXGroup;
 			children = (
-				F1B7080F29DF5E0000247F65 /* GoogleService-Info.plist */,
+				F19623F32A0032A50023586F /* GoogleService-Info.plist */,
 				F1DCDF6529C49972007A8E97 /* Invoices */,
 				F1EFF31E29C494F40035576E /* NewInvoice */,
 				F1BCE8E029C28F34001081EC /* Clients */,
@@ -164,8 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				F1BCE8E129C28F5F001081EC /* ClientsView.swift */,
-				F1BCE8E929C2ABEB001081EC /* ClientRow.swift */,
+				F1BCE8E929C2ABEB001081EC /* ClientRowView.swift */,
 				F1BCE8E329C28F9A001081EC /* ClientsViewModel.swift */,
+				F19623F12A002BB00023586F /* ClientsModel.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -303,9 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BCE8BE29C22A4E001081EC /* Preview Assets.xcassets in Resources */,
-				F1B7081029DF5E0000247F65 /* GoogleService-Info.plist in Resources */,
 				F1B7080E29DF5D1F00247F65 /* .gitignore in Resources */,
 				F1BCE8BB29C22A4E001081EC /* Assets.xcassets in Resources */,
+				F19623F42A0032A50023586F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,11 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19623F22A002BB00023586F /* ClientsModel.swift in Sources */,
 				F1BCE8E229C28F5F001081EC /* ClientsView.swift in Sources */,
 				F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */,
 				F1DCDF6829C499B0007A8E97 /* InvoicesView.swift in Sources */,
 				F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */,
-				F1BCE8EA29C2ABEB001081EC /* ClientRow.swift in Sources */,
+				F1BCE8EA29C2ABEB001081EC /* ClientRowView.swift in Sources */,
 				F1EFF32029C4950D0035576E /* NewInvoice.swift in Sources */,
 				F1BCE8E429C28F9A001081EC /* ClientsViewModel.swift in Sources */,
 			);

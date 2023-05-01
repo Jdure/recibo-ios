@@ -25,11 +25,19 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct recibo_iosApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @State var isSignedUp = false
     
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                VStack {
+                    if isSignedUp {
+                        LoginView()
+                    } else {
+                        EmailSignUpView()
+                    }
+                    
+                }
             }
         }
     }

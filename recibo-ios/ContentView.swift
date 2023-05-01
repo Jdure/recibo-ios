@@ -18,7 +18,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("New Invoice", systemImage: "doc.fill.badge.plus")
                 }
-            InvoicesView()
+            LoginView()
                 .tabItem {
                     Label("All Invoices", systemImage: "doc.on.doc")
                 }

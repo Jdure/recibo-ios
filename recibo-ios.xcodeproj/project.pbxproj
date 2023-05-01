@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F19623F22A002BB00023586F /* ClientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19623F12A002BB00023586F /* ClientsModel.swift */; };
 		F19623F42A0032A50023586F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19623F32A0032A50023586F /* GoogleService-Info.plist */; };
+		F19623F72A003AE10023586F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19623F62A003AE10023586F /* LoginView.swift */; };
 		F1B7080E29DF5D1F00247F65 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F1B7080D29DF5D1F00247F65 /* .gitignore */; };
 		F1B7081329DF5F1700247F65 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F1B7081229DF5F1700247F65 /* FirebaseAuth */; };
 		F1B7081529DF5F1700247F65 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F1B7081429DF5F1700247F65 /* FirebaseDatabase */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		F19623F12A002BB00023586F /* ClientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsModel.swift; sourceTree = "<group>"; };
 		F19623F32A0032A50023586F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F19623F62A003AE10023586F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F1B7080D29DF5D1F00247F65 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F1BCE8B329C22A4C001081EC /* recibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BCE8B629C22A4C001081EC /* recibo_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recibo_iosApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F19623F52A003A200023586F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F19623F62A003AE10023586F /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		F1BCE8AA29C22A4C001081EC = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				F19623F32A0032A50023586F /* GoogleService-Info.plist */,
+				F19623F52A003A200023586F /* Auth */,
 				F1DCDF6529C49972007A8E97 /* Invoices */,
 				F1EFF31E29C494F40035576E /* NewInvoice */,
 				F1BCE8E029C28F34001081EC /* Clients */,
@@ -336,6 +347,7 @@
 				F19623F22A002BB00023586F /* ClientsModel.swift in Sources */,
 				F1BCE8E229C28F5F001081EC /* ClientsView.swift in Sources */,
 				F1BCE8B929C22A4C001081EC /* ContentView.swift in Sources */,
+				F19623F72A003AE10023586F /* LoginView.swift in Sources */,
 				F1DCDF6829C499B0007A8E97 /* InvoicesView.swift in Sources */,
 				F1BCE8B729C22A4C001081EC /* recibo_iosApp.swift in Sources */,
 				F1BCE8EA29C2ABEB001081EC /* ClientRowView.swift in Sources */,
